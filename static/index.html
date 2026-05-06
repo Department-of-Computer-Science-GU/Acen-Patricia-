@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>URL Classifier</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+    <div class="container">
+        <h1>🔍 URL Classification System</h1>
+
+        <p class="subtitle">
+            Enter a URL to check if it is Safe or Malicious
+        </p>
+
+        <div class="card">
+            <input type="text" id="urlInput" placeholder="Enter URL here..." />
+            <button onclick="classifyURL()">Analyze</button>
+        </div>
+
+        <div id="result" class="result-box"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
